@@ -10,7 +10,6 @@
   "author": "Ayush Vishwakarma",
   "type": "module",
   "main": "index.js",
-
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "_comment": "isme hamne ye src se phlejo bhi likha sab import use krne ke liye for dotenv ... vrna error aa rha tha ..aisa h na ki dotenv ko require use krte h ye kahi import wala likha nhi h to ..isko krne ke liye ye sab krna padhta h  "
@@ -20,6 +19,8 @@
     "prettier": "^3.9.9"
   },
   "dependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "cors": "^2.8.6",
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
     "mongoose": "^9.10.3"
